@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+details{
+    float: right;
+}
+details:not([open]){
+    width: 100px;
+  
+}
+summary{
+    list-style: none;
+    padding: 10px;
+    cursor:pointer;
+    color: aliceblue;
+
+}
+.the{
+    background-color: aqua;
+    height: 500px;padding: 10px;
+    text-align: center;
+}
+
+.the h3{
+    font-size: 3rem;
+    padding-top: 30px;
+
+}
+.the h2{
+    font-size: 2.5rem;
+    padding-top: 30px;
+}
+ul li{
+    list-style: none;
+    color:aliceblue;
+    font-size: 1.5rem;
+
+}
+ul{
+    width: 100px;
+}
+.them{
+    background-color: blue;
+    height: 150px;
+}
